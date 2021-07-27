@@ -1,0 +1,17 @@
+pip install virtualenv
+  https://docs.python.org/3/tutorial/venv.html
+
+python -m venv Chatbot_AI
+
+requeriments: pip freeze > ../../src/requirements.txt
+pip install -r requirements.txt
+
+pip install flask
+pip install flask_cors
+pip install flask_mongoengine
+pip install spacy
+  https://spacy.io/models
+
+python ../../index.py
+venv-Chatbot_AI\Scripts\activate.bat
+
