@@ -1,5 +1,5 @@
 
-Django==3.2.5
+Django==3.2.17
 
 sqlparse==0.4.1
 arabic-reshaper==2.1.1
